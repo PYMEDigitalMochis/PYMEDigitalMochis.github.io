@@ -38,6 +38,22 @@
             border-radius: 8px;
             box-shadow: 0 2px 5px rgba(0,0,0,0.1);
         }
+        .boton-whatsapp {
+            display: block;
+            background-color: #25D366;
+            color: white;
+            text-align: center;
+            padding: 15px 20px;
+            border-radius: 8px;
+            text-decoration: none;
+            font-size: 1.2rem;
+            font-weight: bold;
+            margin-top: 30px;
+            box-shadow: 0 3px 8px rgba(0,0,0,0.2);
+        }
+        .boton-whatsapp:hover {
+            background-color: #1ebe5b;
+        }
         footer {
             text-align: center;
             padding: 20px;
@@ -67,15 +83,19 @@
             <h2>📈 Más clientes, menos esfuerzo</h2>
             <p>Automatizamos tareas para que te enfoques en crecer.</p>
         </div>
+
+        <a href="https://wa.me/526681622616?text=Hola,%20vi%20su%20página%20y%20me%20interesa%20una%20demo%20de%20chatbot" class="boton-whatsapp" target="_blank">
+            📱 Escríbeme por WhatsApp
+        </a>
     </div>
 
     <footer>
-        <p>Contacto: pymedigital@proton.me | Los Mochis, Sinaloa</p>
-    </footer>    
-  
-  <script>
+        <p>WhatsApp: 668 162 2616 | Los Mochis, Sinaloa</p>
+    </footer>
+
+    <script>
 (function(){if(!window.chatbase||window.chatbase("getState")!=="initialized"){window.chatbase=(...arguments)=>{if(!window.chatbase.q){window.chatbase.q=[]}window.chatbase.q.push(arguments)};window.chatbase=new Proxy(window.chatbase,{get(target,prop){if(prop==="q"){return target.q}return(...args)=>target(prop,...args)}})}const onLoad=function(){const script=document.createElement("script");script.src="https://www.chatbase.co/embed.min.js";script.id="OxXQXrmYNLDGr3Z1aT6TS";script.domain="www.chatbase.co";document.body.appendChild(script)};if(document.readyState==="complete"){onLoad()}else{window.addEventListener("load",onLoad)}})();
-  </script>
-  
+    </script>
+
 </body>
 </html>
